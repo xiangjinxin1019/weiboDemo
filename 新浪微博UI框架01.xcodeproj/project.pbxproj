@@ -7,22 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50802E01CA3E5B60022FF8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A50802DF1CA3E5B60022FF8D /* AppDelegate.m */; };
+		A50802E51CA427C10022FF8D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50802E41CA427C10022FF8D /* HomeViewController.m */; };
+		A50802E81CA427CE0022FF8D /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50802E71CA427CE0022FF8D /* MessageViewController.m */; };
+		A50802EB1CA427DD0022FF8D /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50802EA1CA427DD0022FF8D /* DiscoverViewController.m */; };
+		A50802EE1CA427E50022FF8D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50802ED1CA427E50022FF8D /* ProfileViewController.m */; };
 		A5A0A8FF1CA2C8A900BB061D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A0A8FE1CA2C8A900BB061D /* main.m */; };
-		A5A0A9021CA2C8A900BB061D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A0A9011CA2C8A900BB061D /* AppDelegate.m */; };
-		A5A0A9051CA2C8A900BB061D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A0A9041CA2C8A900BB061D /* ViewController.m */; };
-		A5A0A9081CA2C8A900BB061D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A0A9061CA2C8A900BB061D /* Main.storyboard */; };
 		A5A0A90A1CA2C8A900BB061D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A0A9091CA2C8A900BB061D /* Assets.xcassets */; };
 		A5A0A90D1CA2C8A900BB061D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A0A90B1CA2C8A900BB061D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A50802DE1CA3E5B60022FF8D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A50802DF1CA3E5B60022FF8D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A50802E21CA3E7DB0022FF8D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A50802E31CA427C10022FF8D /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A50802E41CA427C10022FF8D /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A50802E61CA427CE0022FF8D /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		A50802E71CA427CE0022FF8D /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		A50802E91CA427DD0022FF8D /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		A50802EA1CA427DD0022FF8D /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		A50802EC1CA427E50022FF8D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		A50802ED1CA427E50022FF8D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		A5A0A8FA1CA2C8A900BB061D /* 新浪微博UI框架01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博UI框架01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5A0A8FE1CA2C8A900BB061D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A5A0A9001CA2C8A900BB061D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A5A0A9011CA2C8A900BB061D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A5A0A9031CA2C8A900BB061D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A5A0A9041CA2C8A900BB061D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A5A0A9071CA2C8A900BB061D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5A0A8FE1CA2C8A900BB061D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
 		A5A0A9091CA2C8A900BB061D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A0A90C1CA2C8A900BB061D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A0A90E1CA2C8A900BB061D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,6 +47,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A50802DD1CA3E5B60022FF8D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A50802DE1CA3E5B60022FF8D /* AppDelegate.h */,
+				A50802DF1CA3E5B60022FF8D /* AppDelegate.m */,
+				A5A0A8FE1CA2C8A900BB061D /* main.m */,
+				A50802E21CA3E7DB0022FF8D /* PrefixHeader.pch */,
+				A50802E31CA427C10022FF8D /* HomeViewController.h */,
+				A50802E41CA427C10022FF8D /* HomeViewController.m */,
+				A50802E61CA427CE0022FF8D /* MessageViewController.h */,
+				A50802E71CA427CE0022FF8D /* MessageViewController.m */,
+				A50802E91CA427DD0022FF8D /* DiscoverViewController.h */,
+				A50802EA1CA427DD0022FF8D /* DiscoverViewController.m */,
+				A50802EC1CA427E50022FF8D /* ProfileViewController.h */,
+				A50802ED1CA427E50022FF8D /* ProfileViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		A5A0A8F11CA2C8A900BB061D = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +85,7 @@
 		A5A0A8FC1CA2C8A900BB061D /* 新浪微博UI框架01 */ = {
 			isa = PBXGroup;
 			children = (
-				A5A0A9001CA2C8A900BB061D /* AppDelegate.h */,
-				A5A0A9011CA2C8A900BB061D /* AppDelegate.m */,
-				A5A0A9031CA2C8A900BB061D /* ViewController.h */,
-				A5A0A9041CA2C8A900BB061D /* ViewController.m */,
-				A5A0A9061CA2C8A900BB061D /* Main.storyboard */,
-				A5A0A9091CA2C8A900BB061D /* Assets.xcassets */,
-				A5A0A90B1CA2C8A900BB061D /* LaunchScreen.storyboard */,
-				A5A0A90E1CA2C8A900BB061D /* Info.plist */,
+				A50802DD1CA3E5B60022FF8D /* Classes */,
 				A5A0A8FD1CA2C8A900BB061D /* Supporting Files */,
 			);
 			path = "新浪微博UI框架01";
@@ -74,7 +94,9 @@
 		A5A0A8FD1CA2C8A900BB061D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5A0A8FE1CA2C8A900BB061D /* main.m */,
+				A5A0A9091CA2C8A900BB061D /* Assets.xcassets */,
+				A5A0A90B1CA2C8A900BB061D /* LaunchScreen.storyboard */,
+				A5A0A90E1CA2C8A900BB061D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,7 +160,6 @@
 			files = (
 				A5A0A90D1CA2C8A900BB061D /* LaunchScreen.storyboard in Resources */,
 				A5A0A90A1CA2C8A900BB061D /* Assets.xcassets in Resources */,
-				A5A0A9081CA2C8A900BB061D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +170,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5A0A9051CA2C8A900BB061D /* ViewController.m in Sources */,
-				A5A0A9021CA2C8A900BB061D /* AppDelegate.m in Sources */,
+				A50802EB1CA427DD0022FF8D /* DiscoverViewController.m in Sources */,
+				A50802E01CA3E5B60022FF8D /* AppDelegate.m in Sources */,
 				A5A0A8FF1CA2C8A900BB061D /* main.m in Sources */,
+				A50802E81CA427CE0022FF8D /* MessageViewController.m in Sources */,
+				A50802EE1CA427E50022FF8D /* ProfileViewController.m in Sources */,
+				A50802E51CA427C10022FF8D /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A5A0A9061CA2C8A900BB061D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5A0A9071CA2C8A900BB061D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A5A0A90B1CA2C8A900BB061D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -261,7 +277,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/labixiaoxin1019/XcodeProject/IOS_Project/新浪微博UI框架01/新浪微博UI框架01/Classes/PrefixHeader.pch";
 				INFOPLIST_FILE = "新浪微博UI框架01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.labixiaoxin1019.----UI--01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +292,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/labixiaoxin1019/XcodeProject/IOS_Project/新浪微博UI框架01/新浪微博UI框架01/Classes/PrefixHeader.pch";
 				INFOPLIST_FILE = "新浪微博UI框架01/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.labixiaoxin1019.----UI--01";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +322,7 @@
 				A5A0A9131CA2C8A900BB061D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
