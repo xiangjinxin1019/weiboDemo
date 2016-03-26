@@ -8,10 +8,9 @@
 
 #import "AppDelegate.h"
 
-#import "HomeViewController.h"
-#import "MessageViewController.h"
-#import "DiscoverViewController.h"
-#import "ProfileViewController.h"
+#import "TabbarController.h"
+
+
 
 @interface AppDelegate ()
 
@@ -27,27 +26,14 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
     // 2.创建窗口的根控制器
-    UITabBarController *tabBarVC = [[UITabBarController alloc]init];
+        /**
+        TabbarController是自定义的UITabbarController，里面有实现创建各个子控制器
+        */
+    TabbarController *tabBarVC = [[TabbarController alloc]init];
     self.window.rootViewController = tabBarVC;
     
-    // 3.创建子控制器
-        // 主页
-    HomeViewController *homeVC = [[HomeViewController alloc]init];
-    [self addChildVc:homeVC WithTitle:@"主页" image:@"tabbar_home" selectedImage:@"tabbar_home_selected"];
+    // 3.创建子控制器（在TabbarController的初始化时）
     
-    MessageViewController *messageVC = [[MessageViewController alloc]init];
-    [self addChildVc:messageVC WithTitle:@"消息" image:@"tabbar_message_center" selectedImage:@"tabbar_message_center_selected"];
-//    
-//    MessageViewController *messageVC2 = [[MessageViewController alloc]init];
-//    [self addChildVc:messageVC2 WithTitle:@"消息" image:@"tabbar_message_center" selectedImage:@"tabbar_message_center_selected"];
-    DiscoverViewController *discoverVC = [[DiscoverViewController alloc]init];
-    [self addChildVc:discoverVC WithTitle:@"发现" image:@"tabbar_discover" selectedImage:@"tabbar_discover_selected"];
-    
-    ProfileViewController *profileVC = [[ProfileViewController alloc]init];
-    [self addChildVc:profileVC WithTitle:@"我" image:@"tabbar_profile" selectedImage:@"tabbar_profile_selected"];
-    
-    
-    tabBarVC.viewControllers = @[homeVC, messageVC, discoverVC, profileVC];
     
     // 4.显示窗口
     [self.window makeKeyAndVisible];
@@ -55,24 +41,6 @@
     return YES;
 }
 
--(void)addChildVc:(UIViewController *)childVC WithTitle:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage
-{
-    // 子控制器的tabBarItem属性字典(选择时/未选中时)
-    NSMutableDictionary *AttrDict = [NSMutableDictionary dictionary];
-    AttrDict[NSForegroundColorAttributeName] = colorRGB(123, 123, 123);
-    
-    NSMutableDictionary *selectedAttrDict = [NSMutableDictionary dictionary];
-    selectedAttrDict[NSForegroundColorAttributeName] = colorRGB(253, 128, 28);
-    
-    // 设置子控制器的文字、图片、选中图片
-    childVC.view.backgroundColor = randomColor;
-    [childVC.tabBarItem setTitleTextAttributes:AttrDict forState:UIControlStateNormal];
-    [childVC.tabBarItem setTitleTextAttributes:selectedAttrDict forState:UIControlStateSelected];
-    childVC.tabBarItem.title = title;
-    childVC.tabBarItem.image = [UIImage imageNamed:image];
-    childVC.tabBarItem.image = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];  // 按设置UIImage的渲染模式：原始方式
-
-}
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

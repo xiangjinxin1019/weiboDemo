@@ -12,6 +12,7 @@
 		A50802E81CA427CE0022FF8D /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50802E71CA427CE0022FF8D /* MessageViewController.m */; };
 		A50802EB1CA427DD0022FF8D /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50802EA1CA427DD0022FF8D /* DiscoverViewController.m */; };
 		A50802EE1CA427E50022FF8D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50802ED1CA427E50022FF8D /* ProfileViewController.m */; };
+		A5433E9B1CA5701E004F2DC3 /* TabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5433E9A1CA5701E004F2DC3 /* TabbarController.m */; };
 		A5A0A8FF1CA2C8A900BB061D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A0A8FE1CA2C8A900BB061D /* main.m */; };
 		A5A0A90A1CA2C8A900BB061D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A0A9091CA2C8A900BB061D /* Assets.xcassets */; };
 		A5A0A90D1CA2C8A900BB061D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A0A90B1CA2C8A900BB061D /* LaunchScreen.storyboard */; };
@@ -29,6 +30,8 @@
 		A50802EA1CA427DD0022FF8D /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
 		A50802EC1CA427E50022FF8D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		A50802ED1CA427E50022FF8D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		A5433E991CA5701E004F2DC3 /* TabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarController.h; sourceTree = "<group>"; };
+		A5433E9A1CA5701E004F2DC3 /* TabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarController.m; sourceTree = "<group>"; };
 		A5A0A8FA1CA2C8A900BB061D /* 新浪微博UI框架01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博UI框架01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A0A8FE1CA2C8A900BB061D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
 		A5A0A9091CA2C8A900BB061D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				A50802EA1CA427DD0022FF8D /* DiscoverViewController.m */,
 				A50802EC1CA427E50022FF8D /* ProfileViewController.h */,
 				A50802ED1CA427E50022FF8D /* ProfileViewController.m */,
+				A5433E991CA5701E004F2DC3 /* TabbarController.h */,
+				A5433E9A1CA5701E004F2DC3 /* TabbarController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				A50802E81CA427CE0022FF8D /* MessageViewController.m in Sources */,
 				A50802EE1CA427E50022FF8D /* ProfileViewController.m in Sources */,
 				A50802E51CA427C10022FF8D /* HomeViewController.m in Sources */,
+				A5433E9B1CA5701E004F2DC3 /* TabbarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
