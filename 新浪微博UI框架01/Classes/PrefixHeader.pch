@@ -13,6 +13,28 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 
+#import "UIView+Extension.h"
+
+#import "UIBarButtonItem+Extension.h"
+
+
+
+#ifdef DEBUG // 开发阶段，相当于NSLog
+
+#define kLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布阶段，NSLog失效
+
+#define kLog(...)
+
+#endif
+
+
+
+
+
+
+
 /**
  *  设置RGB随机色
  */
