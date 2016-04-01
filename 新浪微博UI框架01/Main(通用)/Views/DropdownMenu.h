@@ -8,12 +8,25 @@
 
 #import <UIKit/UIKit.h>
 
+
+@class DropdownMenu;
+
+@protocol DropdownMenuDelegate <NSObject>
+
+@optional
+-(void) dropDownMenuDidDismiss:(DropdownMenu *)menu;  // 监听是否调用了dismiss方法
+
+@end
+
+
 @interface DropdownMenu : UIView
 
 @property (nonatomic,strong) UIView *content;
 
 @property (nonatomic,strong) UIViewController *contentController;
 
+
+@property (nonatomic,weak) id<DropdownMenuDelegate> delegate;
 
 /**
  *  创建下拉菜单
@@ -23,7 +36,7 @@
 /**
  *  显示下拉菜单
  */
--(void)showFrom:(UIView *) view;
+-(void)showFrom:(UIView *) from;
 
 /**
  *  销毁下拉菜单

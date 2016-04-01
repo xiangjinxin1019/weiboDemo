@@ -12,6 +12,7 @@
 		A51D7AEF1CAB745900349A16 /* SearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A51D7AEE1CAB745900349A16 /* SearchBar.m */; };
 		A52504061CACBAA800692C0F /* DropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A52504051CACBAA800692C0F /* DropdownMenu.m */; };
 		A52504091CACE3BA00692C0F /* DropdownMenuTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A52504081CACE3BA00692C0F /* DropdownMenuTableView.m */; };
+		A525040F1CAD443200692C0F /* Tabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A525040E1CAD443200692C0F /* Tabbar.m */; };
 		A5388D461CA812EC0063EB9C /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5388D3D1CA812EC0063EB9C /* DiscoverViewController.m */; };
 		A5388D471CA812EC0063EB9C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5388D431CA812EC0063EB9C /* HomeViewController.m */; };
 		A5388D691CA812FA0063EB9C /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5388D561CA812FA0063EB9C /* MessageViewController.m */; };
@@ -40,6 +41,8 @@
 		A52504051CACBAA800692C0F /* DropdownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownMenu.m; sourceTree = "<group>"; };
 		A52504071CACE3BA00692C0F /* DropdownMenuTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownMenuTableView.h; sourceTree = "<group>"; };
 		A52504081CACE3BA00692C0F /* DropdownMenuTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownMenuTableView.m; sourceTree = "<group>"; };
+		A525040D1CAD443200692C0F /* Tabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tabbar.h; sourceTree = "<group>"; };
+		A525040E1CAD443200692C0F /* Tabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tabbar.m; sourceTree = "<group>"; };
 		A5388D3C1CA812EC0063EB9C /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
 		A5388D3D1CA812EC0063EB9C /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
 		A5388D421CA812EC0063EB9C /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -295,6 +298,8 @@
 				A51D7AEE1CAB745900349A16 /* SearchBar.m */,
 				A52504041CACBAA800692C0F /* DropdownMenu.h */,
 				A52504051CACBAA800692C0F /* DropdownMenu.m */,
+				A525040D1CAD443200692C0F /* Tabbar.h */,
+				A525040E1CAD443200692C0F /* Tabbar.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -420,6 +425,7 @@
 				A5388DA21CA814730063EB9C /* UIView+Extension.m in Sources */,
 				A5388DA51CA814730063EB9C /* main.m in Sources */,
 				A5388D691CA812FA0063EB9C /* MessageViewController.m in Sources */,
+				A525040F1CAD443200692C0F /* Tabbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,9 +8,13 @@
 
 #import "DropdownMenu.h"
 
+
+
 @interface DropdownMenu ()
 
 @property (nonatomic,weak) UIImageView *downView;
+
+
 
 @end
 
@@ -48,13 +52,15 @@
     
     // 调整content内容
     content.x = 10;
-    content.y = 10;
+    content.y = 15;
     
     content.width = self.downView.width - 2 * content.x;
-    content.height = CGRectGetMaxY(content.frame) + 10;
+    
+    // 根据content内容设置downView的高度
+    self.downView.height = CGRectGetMaxY(content.frame) + 10;
+//    self.downView.width = CGRectGetMidX(content.frame) + 10;
     
     [self.downView addSubview:content];
-    
 }
 
 
@@ -72,7 +78,7 @@
 }
 
 
--(void)showFrom:(UIView *)view
+-(void)showFrom:(UIView *)from
 {
     
     // 当前视图的最后一个window
@@ -84,13 +90,31 @@
     // 将视图添加到该window显示
     [lastWindow addSubview:self];
     
+    // 默认是以父控件所在坐标系
+    // 转换from的参考坐标系为window坐标系，这样可以得到需要的最大的Y
+    CGRect newFrame = [from convertRect:from.bounds toView:nil];
+    
+    self.downView.centerX = CGRectGetMidX(newFrame);
+    self.downView.y = CGRectGetMaxY(newFrame);
+    
 }
 
 
 -(void)dismiss
 {
     
+    if ( [self.delegate respondsToSelector:@selector(dropDownMenuDidDismiss:)] ) {
+        
+        [self.delegate dropDownMenuDidDismiss:self];
+    }
+    
     [self removeFromSuperview];
+}
+
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self dismiss];
 }
 
 
