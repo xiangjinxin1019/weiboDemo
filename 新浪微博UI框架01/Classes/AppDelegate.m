@@ -10,6 +10,8 @@
 
 #import "TabbarController.h"
 
+#import "NewFeaturesViewController.h"
+
 
 
 @interface AppDelegate ()
@@ -26,16 +28,34 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
     // 2.创建窗口的根控制器
-        /**
-        TabbarController是自定义的UITabbarController，里面有实现创建各个子控制器
-        */
-    TabbarController *tabBarVC = [[TabbarController alloc]init];
-    self.window.rootViewController = tabBarVC;
+    TabbarController *tabBarVC = [[TabbarController alloc]init]; //TabbarController是自定义的UITabbarController，里面有实现创建各个子控制器
     
-    // 3.创建子控制器（在TabbarController的初始化时）
+    // 3.需根据当前版本号进行判断,窗口根控制器显示哪一个控制器
+    // 从沙盒中取出的保存的上个版本号
+    NSString *lastVersion = [[NSUserDefaults standardUserDefaults] objectForKey:@"CFBundleVersion"];
+    
+    // 从info.plist中取出当前版本号
+    NSString *currentVersion = [NSBundle mainBundle].infoDictionary[@"CFBundleVersion"];
+    kLog(@"%@",currentVersion);
+    
+    // 如果版本号没有更新，那么正常进入tabBarController
+    if ( [currentVersion isEqualToString:lastVersion] ) {
+        
+        self.window.rootViewController = tabBarVC;
+    } else { // 否则进入新版本特性的控制器
+        
+        self.window.rootViewController = [[NewFeaturesViewController alloc] init];
+        
+        // 将当前版本号存储到沙盒中
+        [[NSUserDefaults standardUserDefaults] setObject:currentVersion forKey:@"CFBundleVersion"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+    }
+
+    // 4.创建子控制器（在TabbarController的初始化时）
     
     
-    // 4.显示窗口
+    // 5.显示窗口
     [self.window makeKeyAndVisible];
     
     return YES;

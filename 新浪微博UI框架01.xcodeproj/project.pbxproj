@@ -25,6 +25,7 @@
 		A5388DA31CA814730063EB9C /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5388D9C1CA814730063EB9C /* NavigationController.m */; };
 		A5388DA41CA814730063EB9C /* TabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5388D9E1CA814730063EB9C /* TabbarController.m */; };
 		A5388DA51CA814730063EB9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5388D9F1CA814730063EB9C /* main.m */; };
+		A54B03831CAE38F400707471 /* NewFeaturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B03821CAE38F400707471 /* NewFeaturesViewController.m */; };
 		A5A0A90A1CA2C8A900BB061D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A0A9091CA2C8A900BB061D /* Assets.xcassets */; };
 		A5A0A90D1CA2C8A900BB061D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A0A90B1CA2C8A900BB061D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,8 @@
 		A5388D9D1CA814730063EB9C /* TabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarController.h; sourceTree = "<group>"; };
 		A5388D9E1CA814730063EB9C /* TabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarController.m; sourceTree = "<group>"; };
 		A5388D9F1CA814730063EB9C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A54B03811CAE38F400707471 /* NewFeaturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeaturesViewController.h; sourceTree = "<group>"; };
+		A54B03821CAE38F400707471 /* NewFeaturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeaturesViewController.m; sourceTree = "<group>"; };
 		A5A0A8FA1CA2C8A900BB061D /* 新浪微博UI框架01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博UI框架01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A0A9091CA2C8A900BB061D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A0A90C1CA2C8A900BB061D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -84,6 +87,7 @@
 		A50802DD1CA3E5B60022FF8D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A54B03791CAE37BC00707471 /* NewFeatures(新特性) */,
 				A5388D961CA814730063EB9C /* Main(通用) */,
 				A5388D531CA812FA0063EB9C /* Message(消息) */,
 				A5388D591CA812FA0063EB9C /* Others */,
@@ -304,6 +308,24 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		A54B03791CAE37BC00707471 /* NewFeatures(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				A54B037A1CAE37BC00707471 /* Controllers */,
+			);
+			name = "NewFeatures(新特性)";
+			path = "新浪微博UI框架01/NewFeatures(新特性)";
+			sourceTree = SOURCE_ROOT;
+		};
+		A54B037A1CAE37BC00707471 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A54B03811CAE38F400707471 /* NewFeaturesViewController.h */,
+				A54B03821CAE38F400707471 /* NewFeaturesViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		A5A0A8F11CA2C8A900BB061D = {
 			isa = PBXGroup;
 			children = (
@@ -420,6 +442,7 @@
 				A51D7AEF1CAB745900349A16 /* SearchBar.m in Sources */,
 				A52504061CACBAA800692C0F /* DropdownMenu.m in Sources */,
 				A5388D471CA812EC0063EB9C /* HomeViewController.m in Sources */,
+				A54B03831CAE38F400707471 /* NewFeaturesViewController.m in Sources */,
 				A5388D6A1CA812FA0063EB9C /* Test1ViewController.m in Sources */,
 				A5388D6E1CA812FA0063EB9C /* ProfileViewController.m in Sources */,
 				A5388DA21CA814730063EB9C /* UIView+Extension.m in Sources */,
