@@ -26,6 +26,18 @@
 		A5388DA41CA814730063EB9C /* TabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5388D9E1CA814730063EB9C /* TabbarController.m */; };
 		A5388DA51CA814730063EB9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5388D9F1CA814730063EB9C /* main.m */; };
 		A54B03831CAE38F400707471 /* NewFeaturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B03821CAE38F400707471 /* NewFeaturesViewController.m */; };
+		A5539BBF1CB118DD002C8510 /* OAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5539BBE1CB118DD002C8510 /* OAuthController.m */; };
+		A559125B1CB53B96000578FD /* DropdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A559125A1CB53B96000578FD /* DropdownButton.m */; };
+		A56CDBA11CB37D4F00CE660B /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A56CDB951CB37D4F00CE660B /* AFHTTPSessionManager.m */; };
+		A56CDBA21CB37D4F00CE660B /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A56CDB981CB37D4F00CE660B /* AFNetworkReachabilityManager.m */; };
+		A56CDBA31CB37D4F00CE660B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = A56CDB9A1CB37D4F00CE660B /* AFSecurityPolicy.m */; };
+		A56CDBA41CB37D4F00CE660B /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A56CDB9C1CB37D4F00CE660B /* AFURLRequestSerialization.m */; };
+		A56CDBA51CB37D4F00CE660B /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A56CDB9E1CB37D4F00CE660B /* AFURLResponseSerialization.m */; };
+		A56CDBA61CB37D4F00CE660B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A56CDBA01CB37D4F00CE660B /* AFURLSessionManager.m */; };
+		A56CDBAA1CB3A00100CE660B /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = A56CDBA91CB3A00100CE660B /* Account.m */; };
+		A56CDBAE1CB3AB9700CE660B /* AccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A56CDBAD1CB3AB9700CE660B /* AccountTool.m */; };
+		A56CDBD71CB3EBB800CE660B /* UIWindow+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A56CDBD61CB3EBB800CE660B /* UIWindow+Extension.m */; };
+		A56CDBDA1CB3F6F500CE660B /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = A56CDBD91CB3F6F500CE660B /* NSArray+Log.m */; };
 		A5A0A90A1CA2C8A900BB061D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A0A9091CA2C8A900BB061D /* Assets.xcassets */; };
 		A5A0A90D1CA2C8A900BB061D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A0A90B1CA2C8A900BB061D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -67,7 +79,32 @@
 		A5388D9F1CA814730063EB9C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A54B03811CAE38F400707471 /* NewFeaturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeaturesViewController.h; sourceTree = "<group>"; };
 		A54B03821CAE38F400707471 /* NewFeaturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeaturesViewController.m; sourceTree = "<group>"; };
-		A5A0A8FA1CA2C8A900BB061D /* 新浪微博UI框架01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新浪微博UI框架01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5539BBD1CB118DD002C8510 /* OAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthController.h; sourceTree = "<group>"; };
+		A5539BBE1CB118DD002C8510 /* OAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthController.m; sourceTree = "<group>"; };
+		A55912591CB53B96000578FD /* DropdownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownButton.h; sourceTree = "<group>"; };
+		A559125A1CB53B96000578FD /* DropdownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownButton.m; sourceTree = "<group>"; };
+		A56CDB941CB37D4F00CE660B /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		A56CDB951CB37D4F00CE660B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		A56CDB961CB37D4F00CE660B /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A56CDB971CB37D4F00CE660B /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		A56CDB981CB37D4F00CE660B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A56CDB991CB37D4F00CE660B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		A56CDB9A1CB37D4F00CE660B /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		A56CDB9B1CB37D4F00CE660B /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		A56CDB9C1CB37D4F00CE660B /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A56CDB9D1CB37D4F00CE660B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		A56CDB9E1CB37D4F00CE660B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		A56CDB9F1CB37D4F00CE660B /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		A56CDBA01CB37D4F00CE660B /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		A56CDBA81CB3A00100CE660B /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		A56CDBA91CB3A00100CE660B /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		A56CDBAC1CB3AB9700CE660B /* AccountTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTool.h; sourceTree = "<group>"; };
+		A56CDBAD1CB3AB9700CE660B /* AccountTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTool.m; sourceTree = "<group>"; };
+		A56CDBD51CB3EBB800CE660B /* UIWindow+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Extension.h"; sourceTree = "<group>"; };
+		A56CDBD61CB3EBB800CE660B /* UIWindow+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Extension.m"; sourceTree = "<group>"; };
+		A56CDBD81CB3F6F500CE660B /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Log.h"; path = "../../../../../../Desktop/第三方框架/Log（调试中文显示/NSArray+Log.h"; sourceTree = "<group>"; };
+		A56CDBD91CB3F6F500CE660B /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Log.m"; path = "../../../../../../Desktop/第三方框架/Log（调试中文显示/NSArray+Log.m"; sourceTree = "<group>"; };
+		A5A0A8FA1CA2C8A900BB061D /* weiboUI-01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weiboUI-01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A0A9091CA2C8A900BB061D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A0A90C1CA2C8A900BB061D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A0A90E1CA2C8A900BB061D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,6 +124,7 @@
 		A50802DD1CA3E5B60022FF8D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A5539BBB1CB118C5002C8510 /* OAuth(授权) */,
 				A54B03791CAE37BC00707471 /* NewFeatures(新特性) */,
 				A5388D961CA814730063EB9C /* Main(通用) */,
 				A5388D531CA812FA0063EB9C /* Message(消息) */,
@@ -167,6 +205,8 @@
 			children = (
 				A52504071CACE3BA00692C0F /* DropdownMenuTableView.h */,
 				A52504081CACE3BA00692C0F /* DropdownMenuTableView.m */,
+				A55912591CB53B96000578FD /* DropdownButton.h */,
+				A559125A1CB53B96000578FD /* DropdownButton.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -256,6 +296,7 @@
 		A5388D961CA814730063EB9C /* Main(通用) */ = {
 			isa = PBXGroup;
 			children = (
+				A56CDB921CB37D4000CE660B /* Libs */,
 				A5388D971CA814730063EB9C /* Category */,
 				A5388D9A1CA814730063EB9C /* Controllers */,
 				A5388D9F1CA814730063EB9C /* main.m */,
@@ -273,6 +314,8 @@
 				A5388D991CA814730063EB9C /* UIView+Extension.m */,
 				A51978101CAA9BE100787C5A /* UIBarButtonItem+Extension.h */,
 				A51978111CAA9BE100787C5A /* UIBarButtonItem+Extension.m */,
+				A56CDBD51CB3EBB800CE660B /* UIWindow+Extension.h */,
+				A56CDBD61CB3EBB800CE660B /* UIWindow+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -326,6 +369,75 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		A5539BBB1CB118C5002C8510 /* OAuth(授权) */ = {
+			isa = PBXGroup;
+			children = (
+				A56CDBAB1CB3AB8300CE660B /* Tool */,
+				A56CDBA71CB39FEA00CE660B /* Model */,
+				A5539BBC1CB118C5002C8510 /* Controllers */,
+			);
+			name = "OAuth(授权)";
+			path = "新浪微博UI框架01/OAuth(授权)";
+			sourceTree = SOURCE_ROOT;
+		};
+		A5539BBC1CB118C5002C8510 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5539BBD1CB118DD002C8510 /* OAuthController.h */,
+				A5539BBE1CB118DD002C8510 /* OAuthController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A56CDB921CB37D4000CE660B /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				A56CDBD81CB3F6F500CE660B /* NSArray+Log.h */,
+				A56CDBD91CB3F6F500CE660B /* NSArray+Log.m */,
+				A56CDB931CB37D4F00CE660B /* AFNetworking */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		A56CDB931CB37D4F00CE660B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A56CDB941CB37D4F00CE660B /* AFHTTPSessionManager.h */,
+				A56CDB951CB37D4F00CE660B /* AFHTTPSessionManager.m */,
+				A56CDB961CB37D4F00CE660B /* AFNetworking.h */,
+				A56CDB971CB37D4F00CE660B /* AFNetworkReachabilityManager.h */,
+				A56CDB981CB37D4F00CE660B /* AFNetworkReachabilityManager.m */,
+				A56CDB991CB37D4F00CE660B /* AFSecurityPolicy.h */,
+				A56CDB9A1CB37D4F00CE660B /* AFSecurityPolicy.m */,
+				A56CDB9B1CB37D4F00CE660B /* AFURLRequestSerialization.h */,
+				A56CDB9C1CB37D4F00CE660B /* AFURLRequestSerialization.m */,
+				A56CDB9D1CB37D4F00CE660B /* AFURLResponseSerialization.h */,
+				A56CDB9E1CB37D4F00CE660B /* AFURLResponseSerialization.m */,
+				A56CDB9F1CB37D4F00CE660B /* AFURLSessionManager.h */,
+				A56CDBA01CB37D4F00CE660B /* AFURLSessionManager.m */,
+			);
+			name = AFNetworking;
+			path = "../../../../../../Desktop/第三方框架/AFNetworking-master/AFNetworking";
+			sourceTree = "<group>";
+		};
+		A56CDBA71CB39FEA00CE660B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A56CDBA81CB3A00100CE660B /* Account.h */,
+				A56CDBA91CB3A00100CE660B /* Account.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A56CDBAB1CB3AB8300CE660B /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A56CDBAC1CB3AB9700CE660B /* AccountTool.h */,
+				A56CDBAD1CB3AB9700CE660B /* AccountTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		A5A0A8F11CA2C8A900BB061D = {
 			isa = PBXGroup;
 			children = (
@@ -337,7 +449,7 @@
 		A5A0A8FB1CA2C8A900BB061D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5A0A8FA1CA2C8A900BB061D /* 新浪微博UI框架01.app */,
+				A5A0A8FA1CA2C8A900BB061D /* weiboUI-01.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -378,7 +490,7 @@
 			);
 			name = "新浪微博UI框架01";
 			productName = "新浪微博UI框架01";
-			productReference = A5A0A8FA1CA2C8A900BB061D /* 新浪微博UI框架01.app */;
+			productReference = A5A0A8FA1CA2C8A900BB061D /* weiboUI-01.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -433,14 +545,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				A52504091CACE3BA00692C0F /* DropdownMenuTableView.m in Sources */,
+				A56CDBDA1CB3F6F500CE660B /* NSArray+Log.m in Sources */,
+				A56CDBA11CB37D4F00CE660B /* AFHTTPSessionManager.m in Sources */,
+				A56CDBA21CB37D4F00CE660B /* AFNetworkReachabilityManager.m in Sources */,
 				A51978121CAA9BE100787C5A /* UIBarButtonItem+Extension.m in Sources */,
 				A50802E01CA3E5B60022FF8D /* AppDelegate.m in Sources */,
+				A56CDBAE1CB3AB9700CE660B /* AccountTool.m in Sources */,
 				A5388D461CA812EC0063EB9C /* DiscoverViewController.m in Sources */,
 				A5388D6C1CA812FA0063EB9C /* Test2ViewController.m in Sources */,
+				A56CDBA41CB37D4F00CE660B /* AFURLRequestSerialization.m in Sources */,
+				A56CDBAA1CB3A00100CE660B /* Account.m in Sources */,
+				A56CDBA31CB37D4F00CE660B /* AFSecurityPolicy.m in Sources */,
+				A56CDBA61CB37D4F00CE660B /* AFURLSessionManager.m in Sources */,
+				A5539BBF1CB118DD002C8510 /* OAuthController.m in Sources */,
+				A56CDBD71CB3EBB800CE660B /* UIWindow+Extension.m in Sources */,
 				A5388DA41CA814730063EB9C /* TabbarController.m in Sources */,
 				A5388DA31CA814730063EB9C /* NavigationController.m in Sources */,
 				A51D7AEF1CAB745900349A16 /* SearchBar.m in Sources */,
 				A52504061CACBAA800692C0F /* DropdownMenu.m in Sources */,
+				A559125B1CB53B96000578FD /* DropdownButton.m in Sources */,
 				A5388D471CA812EC0063EB9C /* HomeViewController.m in Sources */,
 				A54B03831CAE38F400707471 /* NewFeaturesViewController.m in Sources */,
 				A5388D6A1CA812FA0063EB9C /* Test1ViewController.m in Sources */,
@@ -449,6 +572,7 @@
 				A5388DA51CA814730063EB9C /* main.m in Sources */,
 				A5388D691CA812FA0063EB9C /* MessageViewController.m in Sources */,
 				A525040F1CAD443200692C0F /* Tabbar.m in Sources */,
+				A56CDBA51CB37D4F00CE660B /* AFURLResponseSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,8 +680,8 @@
 				INFOPLIST_FILE = "新浪微博UI框架01/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.labixiaoxin1019.----UI--01";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.labixiaoxin1019.weiboUI-01";
+				PRODUCT_NAME = "weiboUI-01";
 			};
 			name = Debug;
 		};
@@ -571,8 +695,8 @@
 				INFOPLIST_FILE = "新浪微博UI框架01/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.labixiaoxin1019.----UI--01";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.labixiaoxin1019.weiboUI-01";
+				PRODUCT_NAME = "weiboUI-01";
 			};
 			name = Release;
 		};

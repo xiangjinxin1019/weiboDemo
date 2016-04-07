@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A5A0A8F91CA2C8A900BB061D"
-               BuildableName = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01.app"
+               BuildableName = "weiboUI-01.app"
                BlueprintName = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01"
                ReferencedContainer = "container:&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A5A0A8F91CA2C8A900BB061D"
-            BuildableName = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01.app"
+            BuildableName = "weiboUI-01.app"
             BlueprintName = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01"
             ReferencedContainer = "container:&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A5A0A8F91CA2C8A900BB061D"
-            BuildableName = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01.app"
+            BuildableName = "weiboUI-01.app"
             BlueprintName = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01"
             ReferencedContainer = "container:&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A5A0A8F91CA2C8A900BB061D"
-            BuildableName = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01.app"
+            BuildableName = "weiboUI-01.app"
             BlueprintName = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01"
             ReferencedContainer = "container:&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01.xcodeproj">
          </BuildableReference>
