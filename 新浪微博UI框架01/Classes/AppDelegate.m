@@ -19,6 +19,8 @@
 
 #import "UIWindow+Extension.h"
 
+#import "SDWebImageManager.h"
+
 @interface AppDelegate ()
 
 @end
@@ -53,6 +55,19 @@
     return YES;
 }
 
+
+-(void)applicationDidReceiveMemoryWarning:(UIApplication *)application
+{
+    // 当SDWebImage加载网络图片过多，内存警告时
+    SDWebImageManager *manager = [SDWebImageManager sharedManager];
+    
+    // 取消下载网络图片的所有操作
+    [manager cancelAll];
+    
+    // 清空缓存
+    [manager.imageCache clearMemory];
+    
+}
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {
