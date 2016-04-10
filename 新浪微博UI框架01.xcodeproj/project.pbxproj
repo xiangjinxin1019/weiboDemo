@@ -25,6 +25,8 @@
 		A5388DA31CA814730063EB9C /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5388D9C1CA814730063EB9C /* NavigationController.m */; };
 		A5388DA41CA814730063EB9C /* TabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5388D9E1CA814730063EB9C /* TabbarController.m */; };
 		A5388DA51CA814730063EB9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5388D9F1CA814730063EB9C /* main.m */; };
+		A53E76F21CB9E95D00F139ED /* LoadMoreFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A53E76F01CB9E95D00F139ED /* LoadMoreFooterView.m */; };
+		A53E76F31CB9E95D00F139ED /* LoadMoreFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A53E76F11CB9E95D00F139ED /* LoadMoreFooterView.xib */; };
 		A54B03831CAE38F400707471 /* NewFeaturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54B03821CAE38F400707471 /* NewFeaturesViewController.m */; };
 		A5539BBF1CB118DD002C8510 /* OAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5539BBE1CB118DD002C8510 /* OAuthController.m */; };
 		A559125B1CB53B96000578FD /* DropdownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A559125A1CB53B96000578FD /* DropdownButton.m */; };
@@ -95,6 +97,9 @@
 		A5388D9D1CA814730063EB9C /* TabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarController.h; sourceTree = "<group>"; };
 		A5388D9E1CA814730063EB9C /* TabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarController.m; sourceTree = "<group>"; };
 		A5388D9F1CA814730063EB9C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A53E76EF1CB9E95D00F139ED /* LoadMoreFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreFooterView.h; sourceTree = "<group>"; };
+		A53E76F01CB9E95D00F139ED /* LoadMoreFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreFooterView.m; sourceTree = "<group>"; };
+		A53E76F11CB9E95D00F139ED /* LoadMoreFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadMoreFooterView.xib; sourceTree = "<group>"; };
 		A54B03811CAE38F400707471 /* NewFeaturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeaturesViewController.h; sourceTree = "<group>"; };
 		A54B03821CAE38F400707471 /* NewFeaturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeaturesViewController.m; sourceTree = "<group>"; };
 		A5539BBD1CB118DD002C8510 /* OAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthController.h; sourceTree = "<group>"; };
@@ -266,6 +271,9 @@
 				A52504081CACE3BA00692C0F /* DropdownMenuTableView.m */,
 				A55912591CB53B96000578FD /* DropdownButton.h */,
 				A559125A1CB53B96000578FD /* DropdownButton.m */,
+				A53E76EF1CB9E95D00F139ED /* LoadMoreFooterView.h */,
+				A53E76F01CB9E95D00F139ED /* LoadMoreFooterView.m */,
+				A53E76F11CB9E95D00F139ED /* LoadMoreFooterView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -631,6 +639,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A53E76F31CB9E95D00F139ED /* LoadMoreFooterView.xib in Resources */,
 				A5A0A90D1CA2C8A900BB061D /* LaunchScreen.storyboard in Resources */,
 				A5388D6D1CA812FA0063EB9C /* Test2ViewController.xib in Resources */,
 				A5A0A90A1CA2C8A900BB061D /* Assets.xcassets in Resources */,
@@ -673,6 +682,7 @@
 				A570F8341CB6407200D69277 /* UIImageView+WebCache.m in Sources */,
 				A52504061CACBAA800692C0F /* DropdownMenu.m in Sources */,
 				A570F82F1CB6407200D69277 /* UIButton+WebCache.m in Sources */,
+				A53E76F21CB9E95D00F139ED /* LoadMoreFooterView.m in Sources */,
 				A570F82B1CB6407200D69277 /* SDWebImageDownloader.m in Sources */,
 				A570F8321CB6407200D69277 /* UIImage+WebP.m in Sources */,
 				A570F8311CB6407200D69277 /* UIImage+MultiFormat.m in Sources */,
