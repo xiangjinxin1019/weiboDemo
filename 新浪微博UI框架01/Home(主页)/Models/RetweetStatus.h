@@ -1,26 +1,20 @@
 //
-//  Status.h
+//  RetweetStatus.h
 //  新浪微博UI框架01
 //
-//  Created by labixiaoxin1019 on 16/4/7.
+//  Created by labixiaoxin1019 on 16/4/26.
 //  Copyright © 2016年 labixiaoxin1019. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
 @class User;
-@class RetweetStatus;
 
-@interface Status : NSObject
+@interface RetweetStatus : NSObject
 
 
 /**微博作者的用户信息字段 详细*/
 @property (nonatomic,strong) User *user;
-
-
-/**被转发的原微博信息字段*/
-@property (nonatomic,strong) RetweetStatus *retweeted_status;
-
 
 /**字符串型的微博ID*/
 @property (nonatomic,copy) NSString *idstr;
@@ -37,7 +31,7 @@
 
 
 
-+(instancetype)statusWithDictionary:(NSDictionary *)dict;
++(instancetype)retweetStatusWithDictionary:(NSDictionary *)dict;
 
 
 @end

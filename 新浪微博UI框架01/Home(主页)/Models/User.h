@@ -20,6 +20,16 @@
 /**用户头像地址（中图），50×50像素*/
 @property (nonatomic,copy) NSString *profile_image_url;
 
+/**会员类型*/
+@property (nonatomic,copy) NSString *mbtype;
+
+/**会员等级*/
+@property (nonatomic,copy) NSString *mbrank;
+
+/**是否是vip*/
+@property(nonatomic,assign,getter=isVip) BOOL vip;
+
+
 
 +(instancetype)userWithDictionary:(NSDictionary *)dict;
 

@@ -10,6 +10,20 @@
 
 @implementation User
 
+
+//-(void)setMbrank:(int)mbrank
+//{
+//    _mbrank = mbrank;
+//    
+////    self.vip = mbrank > 2;
+//}
+
+-(BOOL)isVip
+{
+    return (self.mbrank.integerValue > 2);
+
+}
+
 +(instancetype)userWithDictionary:(NSDictionary *)dict
 {
     
@@ -18,8 +32,14 @@
     user.idstr = dict[@"idstr"];
     user.name = dict[@"name"];
     user.profile_image_url = dict[@"profile_image_url"];
+    user.mbrank = dict[@"mbrank"];
+    user.mbtype = dict[@"mbtype"];
+    
     
     return user;
 }
+
+
+
 
 @end

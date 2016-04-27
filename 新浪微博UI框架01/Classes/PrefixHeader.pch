@@ -46,5 +46,10 @@
  */
 #define randomColor colorRGB(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
 
+/**
+ *  nameLabel的字体大小
+ */
+#define kNameLabelFont [UIFont systemFontOfSize:15]
+
 
 #endif /* PrefixHeader_pch */

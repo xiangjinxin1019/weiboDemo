@@ -10,6 +10,10 @@
 
 #import "User.h"
 
+#import "Photo.h"
+
+#import "RetweetStatus.h"
+
 @implementation Status
 
 +(instancetype)statusWithDictionary:(NSDictionary *)dict
@@ -19,11 +23,28 @@
     
     status.idstr = dict[@"idstr"];
     status.text = dict[@"text"];
+    status.created_at = dict[@"created_at"];
+    status.source = dict[@"source"];
     
     // user对象（字典）
     status.user = [User userWithDictionary:dict[@"user"]];
     
+    // pic_urls数组
+    NSMutableArray *picArray = [NSMutableArray array];
+    for (NSDictionary *pic in dict[@"pic_urls"]) {
+        
+        Photo *photo = [Photo photoWithDictionary:pic];
+        [picArray addObject:photo];
+    }
+    status.pic_urls = picArray;
+
+
+    status.retweeted_status = [RetweetStatus retweetStatusWithDictionary:dict[@"retweeted_status"]];
+    
     return status;
 }
+
+
+
 
 @end

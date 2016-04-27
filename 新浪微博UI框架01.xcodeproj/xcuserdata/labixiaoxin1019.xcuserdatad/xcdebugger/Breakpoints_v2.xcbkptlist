@@ -20,13 +20,109 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01/Home(&#x4e3b;&#x9875;)/Controllers/HomeViewController.m"
-            timestampString = "481967042.112242"
+            timestampString = "482245529.563154"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "251"
-            endingLineNumber = "251"
+            startingLineNumber = "262"
+            endingLineNumber = "262"
             landmarkName = "-startRefreshData:"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01/Home(&#x4e3b;&#x9875;)/Models/StatusFrame.m"
+            timestampString = "483347649.911993"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-setStatus:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01/Home(&#x4e3b;&#x9875;)/Controllers/HomeViewController.m"
+            timestampString = "483360409.142246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "431"
+            endingLineNumber = "431"
+            landmarkName = "-loadMoreData"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01/Home(&#x4e3b;&#x9875;)/Controllers/HomeViewController.m"
+            timestampString = "483360517.182014"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "229"
+            endingLineNumber = "229"
+            landmarkName = "-startRefreshData:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x65b0;&#x6d6a;&#x5fae;&#x535a;UI&#x6846;&#x67b6;01/Home(&#x4e3b;&#x9875;)/Models/Status.m"
+            timestampString = "483366766.039356"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "+statusWithDictionary:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[Status statusWithDictionary:]"
+                  moduleName = "weiboUI-01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/labixiaoxin1019/XcodeProject/%E8%A7%86%E9%A2%91%E7%A8%8B%E5%BA%8F/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A-02/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9AUI%E6%A1%86%E6%9E%B601/Home(%E4%B8%BB%E9%A1%B5)/Models/Status.m"
+                  timestampString = "483361334.778488"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "807">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[Status statusWithDictionary:]"
+                  moduleName = "weiboUI-01"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/labixiaoxin1019/XcodeProject/%E8%A7%86%E9%A2%91%E7%A8%8B%E5%BA%8F/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9A-02/%E6%96%B0%E6%B5%AA%E5%BE%AE%E5%8D%9AUI%E6%A1%86%E6%9E%B601/Home(%E4%B8%BB%E9%A1%B5)/Models/Status.m"
+                  timestampString = "483361334.778757"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "843">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
